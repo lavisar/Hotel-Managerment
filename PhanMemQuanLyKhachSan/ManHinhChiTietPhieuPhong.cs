@@ -185,7 +185,6 @@ namespace PhanMemQuanLyKhachSan
 
             return list;
         }
-
         private void btnThemCuaCTPP_Click(object sender, EventArgs e)
         {
             try
@@ -202,6 +201,8 @@ namespace PhanMemQuanLyKhachSan
                 dgvChiTietDichVu.Rows[index].Cells[4].Value = thanhtien.ToString();
 
                 dgvChiTietDichVu.Rows[index].Cells["id"].Value = dv.DichVuID + "";
+
+
             }
             catch (Exception ex)
             {
@@ -240,7 +241,6 @@ namespace PhanMemQuanLyKhachSan
                 lblThanhTien.Text = "";
             }
         }
-
         private void cmbSoPhong_SelectedIndexChanged(object sender, EventArgs e)
         {
             try
@@ -273,6 +273,28 @@ namespace PhanMemQuanLyKhachSan
 
         private void txtChiTietSoKhach_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void lblChiTietTongTien_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+        private void txtSoLuong_TextChanged(object sender, EventArgs e)
+        {
+            int thanhtien = int.Parse(lblThanhTien.Text);
+            DichVu dv = DichVu.GetDichVu(int.Parse(cmbTenDichVu.SelectedValue.ToString()));
+
+            int thanhtienDV;
+
+            for (int i = 0; i < int.Parse(cmbTenDichVu.SelectedValue.ToString()); i++)
+            {
+                thanhtienDV = dv.GiaDV.Value * int.Parse(txtSoLuong.Text);                    
+                lblChiTietTongTien.Text = (thanhtien + thanhtienDV).ToString();
+            }         
 
         }
     }
