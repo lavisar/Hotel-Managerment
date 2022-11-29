@@ -159,6 +159,7 @@
             this.txtSoLuong.Name = "txtSoLuong";
             this.txtSoLuong.Size = new System.Drawing.Size(52, 22);
             this.txtSoLuong.TabIndex = 73;
+            this.txtSoLuong.TextChanged += new System.EventHandler(this.txtSoLuong_TextChanged);
             // 
             // cmbTenDichVu
             // 

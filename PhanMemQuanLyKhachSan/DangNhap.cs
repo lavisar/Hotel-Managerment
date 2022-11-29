@@ -85,25 +85,29 @@ namespace PhanMemQuanLyKhachSan
             {
                 if(check[0].password.Equals(matKhau))
                {
-                 MessageBox.Show("Dang nhap thanh cong");
+                 MessageBox.Show("Đăng nhập thành công!");
                  Menu mhc = new Menu();
                  mhc.Show();
                  this.Hide();
                 }
                 else
                 {
-                    MessageBox.Show("Mat khau khong dung!");
+                    MessageBox.Show("Mật khẩu không đúng!");
                 }
             }
             else
             {
-                MessageBox.Show("Khong ton tai tai khoan!");
+                MessageBox.Show("Không tồn tại tài khoản trên hệ thống!");
             }
         }
 
         private void btnDangKy_Click(object sender, EventArgs e)
         {
+//<<<<<<< HEAD
             MessageBox.Show("Đăng ký ADMIN nhé!");
+//=======
+            MessageBox.Show("Chức năng hiện chưa có, trở lại sau bạn nhé!");
+//>>>>>>> 7afceaeaa667e1cc7033622aa8a0c5b29f6e55f2
         }
 
         private void btnQuenMatKhau_Click(object sender, EventArgs e)
