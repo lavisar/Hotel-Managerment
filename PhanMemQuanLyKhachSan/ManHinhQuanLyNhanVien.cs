@@ -69,7 +69,6 @@ namespace PhanMemQuanLyKhachSan
         {
             frmCapNhatThongTinNhanVien cnttnv = new frmCapNhatThongTinNhanVien();
             cnttnv.Show();
-            this.Hide();
         }
         private void xttnv_FormClosed(object sender, FormClosedEventArgs e)
         {
@@ -80,7 +79,6 @@ namespace PhanMemQuanLyKhachSan
         {
             frmCapNhatLichLamViec llv = new frmCapNhatLichLamViec();
             llv.Show();
-            this.Hide();
         }
 
         private void BtnXemLaiNV_Click(object sender, EventArgs e)
@@ -102,6 +100,16 @@ namespace PhanMemQuanLyKhachSan
         }
 
         private void pnlQLNV_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblQuanLyNhanVien_Click(object sender, EventArgs e)
         {
 
         }

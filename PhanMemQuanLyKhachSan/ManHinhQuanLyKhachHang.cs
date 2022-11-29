@@ -117,5 +117,10 @@ namespace PhanMemQuanLyKhachSan
         {
             BindGrid(KhachHang.GetAll());
         }
+
+        private void txtTimKiem_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

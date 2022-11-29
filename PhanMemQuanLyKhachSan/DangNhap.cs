@@ -24,7 +24,7 @@ namespace PhanMemQuanLyKhachSan
             if (txtTenDangNhap.Text == "Tên đăng nhập")
             {
                 txtTenDangNhap.Text = "";
-                txtTenDangNhap.ForeColor = Color.Black;
+                txtTenDangNhap.ForeColor = Color.Coral;
             }
         }
 
@@ -43,7 +43,7 @@ namespace PhanMemQuanLyKhachSan
             {
                 txtMatKhau.UseSystemPasswordChar = true;
                 txtMatKhau.Text = "";
-                txtMatKhau.ForeColor = Color.Black;
+                txtMatKhau.ForeColor = Color.Coral;
             }
         }
 
@@ -68,6 +68,7 @@ namespace PhanMemQuanLyKhachSan
             txtMatKhau.UseSystemPasswordChar = true;
         }
 
+        // Event Đăng nhập
         private void BtnDangNhap_Click(object sender, EventArgs e)
         {
             //gọi đến class MatKhau
@@ -82,7 +83,7 @@ namespace PhanMemQuanLyKhachSan
                 if(check[0].password.Equals(matKhau))
                {
                  MessageBox.Show("Dang nhap thanh cong");
-                 frmManHinhChinh mhc = new frmManHinhChinh();
+                 Menu mhc = new Menu();
                  mhc.Show();
                  this.Hide();
                 }
@@ -104,7 +105,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void btnQuenMatKhau_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Quên thì đi hỏi Thủy Tiên nhé!");
+           
         }
 
         private void btnHienMatKhau_Click(object sender, EventArgs e)
@@ -148,6 +149,16 @@ namespace PhanMemQuanLyKhachSan
         }
 
         private void frmDangNhap_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Quên thì đi hỏi Thủy Tiên nhé!");
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

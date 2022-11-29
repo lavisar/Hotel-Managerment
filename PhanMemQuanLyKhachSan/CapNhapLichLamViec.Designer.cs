@@ -34,7 +34,6 @@
             this.btnSuaLichLamViec = new System.Windows.Forms.Button();
             this.btnXoaLichLamViec = new System.Windows.Forms.Button();
             this.btnThemLichLamViec = new System.Windows.Forms.Button();
-            this.btnTroVeCuaCapNhatLichLamViec = new System.Windows.Forms.Button();
             this.dgvCapNhatLichLamViec = new System.Windows.Forms.DataGridView();
             this.stt = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenNV = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -43,7 +42,6 @@
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnXemLai = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.cbxCa = new System.Windows.Forms.ComboBox();
             this.dtpNgayLamViec = new System.Windows.Forms.DateTimePicker();
             this.cbxTenNV = new System.Windows.Forms.ComboBox();
@@ -55,9 +53,9 @@
             this.lblLichLamViec.AutoSize = true;
             this.lblLichLamViec.BackColor = System.Drawing.Color.Transparent;
             this.lblLichLamViec.Font = new System.Drawing.Font("Palatino Linotype", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLichLamViec.Location = new System.Drawing.Point(308, 16);
+            this.lblLichLamViec.Location = new System.Drawing.Point(423, 110);
             this.lblLichLamViec.Name = "lblLichLamViec";
-            this.lblLichLamViec.Size = new System.Drawing.Size(525, 44);
+            this.lblLichLamViec.Size = new System.Drawing.Size(524, 44);
             this.lblLichLamViec.TabIndex = 0;
             this.lblLichLamViec.Text = "Lịch Làm Việc Toàn Bộ Nhân Viên";
             this.lblLichLamViec.Click += new System.EventHandler(this.LblLichLamViec_Click);
@@ -82,63 +80,47 @@
             // 
             // btnSuaLichLamViec
             // 
-            this.btnSuaLichLamViec.BackColor = System.Drawing.Color.DarkKhaki;
+            this.btnSuaLichLamViec.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnSuaLichLamViec.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSuaLichLamViec.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconSuaaaaa;
             this.btnSuaLichLamViec.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSuaLichLamViec.Location = new System.Drawing.Point(571, 141);
+            this.btnSuaLichLamViec.Location = new System.Drawing.Point(410, 595);
             this.btnSuaLichLamViec.Name = "btnSuaLichLamViec";
-            this.btnSuaLichLamViec.Size = new System.Drawing.Size(84, 45);
+            this.btnSuaLichLamViec.Size = new System.Drawing.Size(119, 35);
             this.btnSuaLichLamViec.TabIndex = 13;
-            this.btnSuaLichLamViec.Text = "Sửa ";
-            this.btnSuaLichLamViec.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSuaLichLamViec.Text = "FIX";
             this.btnSuaLichLamViec.UseVisualStyleBackColor = false;
             this.btnSuaLichLamViec.Click += new System.EventHandler(this.btnSuaLichLamViec_Click);
             // 
             // btnXoaLichLamViec
             // 
-            this.btnXoaLichLamViec.BackColor = System.Drawing.Color.DarkKhaki;
+            this.btnXoaLichLamViec.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnXoaLichLamViec.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaLichLamViec.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconDelete;
             this.btnXoaLichLamViec.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoaLichLamViec.Location = new System.Drawing.Point(409, 141);
+            this.btnXoaLichLamViec.Location = new System.Drawing.Point(273, 595);
             this.btnXoaLichLamViec.Name = "btnXoaLichLamViec";
-            this.btnXoaLichLamViec.Size = new System.Drawing.Size(83, 45);
+            this.btnXoaLichLamViec.Size = new System.Drawing.Size(116, 35);
             this.btnXoaLichLamViec.TabIndex = 12;
-            this.btnXoaLichLamViec.Text = "Xóa ";
+            this.btnXoaLichLamViec.Text = "DELETE";
             this.btnXoaLichLamViec.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnXoaLichLamViec.UseVisualStyleBackColor = false;
             this.btnXoaLichLamViec.Click += new System.EventHandler(this.btnXoaLichLamViec_Click);
             // 
             // btnThemLichLamViec
             // 
-            this.btnThemLichLamViec.BackColor = System.Drawing.Color.DarkKhaki;
+            this.btnThemLichLamViec.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnThemLichLamViec.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemLichLamViec.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconThem;
             this.btnThemLichLamViec.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThemLichLamViec.Location = new System.Drawing.Point(749, 141);
+            this.btnThemLichLamViec.Location = new System.Drawing.Point(994, 395);
             this.btnThemLichLamViec.Name = "btnThemLichLamViec";
-            this.btnThemLichLamViec.Size = new System.Drawing.Size(93, 45);
+            this.btnThemLichLamViec.Size = new System.Drawing.Size(93, 37);
             this.btnThemLichLamViec.TabIndex = 11;
-            this.btnThemLichLamViec.Text = "Thêm ";
+            this.btnThemLichLamViec.Text = "ADD";
             this.btnThemLichLamViec.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnThemLichLamViec.UseVisualStyleBackColor = false;
             this.btnThemLichLamViec.Click += new System.EventHandler(this.btnThemLichLamViec_Click);
-            // 
-            // btnTroVeCuaCapNhatLichLamViec
-            // 
-            this.btnTroVeCuaCapNhatLichLamViec.BackColor = System.Drawing.Color.DarkKhaki;
-            this.btnTroVeCuaCapNhatLichLamViec.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTroVeCuaCapNhatLichLamViec.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
-            this.btnTroVeCuaCapNhatLichLamViec.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTroVeCuaCapNhatLichLamViec.Location = new System.Drawing.Point(12, 15);
-            this.btnTroVeCuaCapNhatLichLamViec.Name = "btnTroVeCuaCapNhatLichLamViec";
-            this.btnTroVeCuaCapNhatLichLamViec.Size = new System.Drawing.Size(101, 45);
-            this.btnTroVeCuaCapNhatLichLamViec.TabIndex = 10;
-            this.btnTroVeCuaCapNhatLichLamViec.Text = "Trở về";
-            this.btnTroVeCuaCapNhatLichLamViec.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnTroVeCuaCapNhatLichLamViec.UseVisualStyleBackColor = false;
-            this.btnTroVeCuaCapNhatLichLamViec.Click += new System.EventHandler(this.BtnTroVeCuaCapNhatLichLamViec_Click);
             // 
             // dgvCapNhatLichLamViec
             // 
@@ -150,9 +132,9 @@
             this.ca,
             this.ngay,
             this.id});
-            this.dgvCapNhatLichLamViec.Location = new System.Drawing.Point(29, 207);
+            this.dgvCapNhatLichLamViec.Location = new System.Drawing.Point(273, 244);
             this.dgvCapNhatLichLamViec.Name = "dgvCapNhatLichLamViec";
-            this.dgvCapNhatLichLamViec.Size = new System.Drawing.Size(813, 444);
+            this.dgvCapNhatLichLamViec.Size = new System.Drawing.Size(569, 330);
             this.dgvCapNhatLichLamViec.TabIndex = 16;
             // 
             // stt
@@ -183,38 +165,27 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(29, 155);
+            this.textBox1.Location = new System.Drawing.Point(273, 193);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(185, 31);
+            this.textBox1.Size = new System.Drawing.Size(569, 31);
             this.textBox1.TabIndex = 17;
             // 
             // btnXemLai
             // 
-            this.btnXemLai.BackColor = System.Drawing.Color.DarkKhaki;
+            this.btnXemLai.BackColor = System.Drawing.Color.FloralWhite;
             this.btnXemLai.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXemLai.Location = new System.Drawing.Point(239, 155);
+            this.btnXemLai.Location = new System.Drawing.Point(767, 192);
             this.btnXemLai.Name = "btnXemLai";
             this.btnXemLai.Size = new System.Drawing.Size(75, 32);
             this.btnXemLai.TabIndex = 18;
-            this.btnXemLai.Text = "Xem Lại";
+            this.btnXemLai.Text = "REVIEW";
             this.btnXemLai.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(37, 111);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(265, 22);
-            this.label1.TabIndex = 19;
-            this.label1.Text = "Xem Lại Lịch Làm Việc Theo Ngày";
             // 
             // cbxCa
             // 
             this.cbxCa.FormattingEnabled = true;
-            this.cbxCa.Location = new System.Drawing.Point(882, 260);
+            this.cbxCa.Location = new System.Drawing.Point(864, 325);
             this.cbxCa.Name = "cbxCa";
             this.cbxCa.Size = new System.Drawing.Size(223, 21);
             this.cbxCa.TabIndex = 21;
@@ -223,7 +194,7 @@
             // 
             this.dtpNgayLamViec.CustomFormat = "dd/MM/yyyy";
             this.dtpNgayLamViec.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpNgayLamViec.Location = new System.Drawing.Point(882, 323);
+            this.dtpNgayLamViec.Location = new System.Drawing.Point(864, 369);
             this.dtpNgayLamViec.Name = "dtpNgayLamViec";
             this.dtpNgayLamViec.Size = new System.Drawing.Size(223, 20);
             this.dtpNgayLamViec.TabIndex = 22;
@@ -231,7 +202,7 @@
             // cbxTenNV
             // 
             this.cbxTenNV.FormattingEnabled = true;
-            this.cbxTenNV.Location = new System.Drawing.Point(882, 198);
+            this.cbxTenNV.Location = new System.Drawing.Point(864, 279);
             this.cbxTenNV.Name = "cbxTenNV";
             this.cbxTenNV.Size = new System.Drawing.Size(223, 21);
             this.cbxTenNV.TabIndex = 23;
@@ -240,13 +211,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.b13;
+            this.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.nenCNNV;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1133, 681);
             this.Controls.Add(this.cbxTenNV);
             this.Controls.Add(this.dtpNgayLamViec);
             this.Controls.Add(this.cbxCa);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnXemLai);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dgvCapNhatLichLamViec);
@@ -255,7 +225,6 @@
             this.Controls.Add(this.btnSuaLichLamViec);
             this.Controls.Add(this.btnXoaLichLamViec);
             this.Controls.Add(this.btnThemLichLamViec);
-            this.Controls.Add(this.btnTroVeCuaCapNhatLichLamViec);
             this.Controls.Add(this.lblLichLamViec);
             this.Name = "frmCapNhatLichLamViec";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -270,7 +239,6 @@
         #endregion
 
         private System.Windows.Forms.Label lblLichLamViec;
-        private System.Windows.Forms.Button btnTroVeCuaCapNhatLichLamViec;
         private System.Windows.Forms.Button btnThemLichLamViec;
         private System.Windows.Forms.Button btnSuaLichLamViec;
         private System.Windows.Forms.Button btnXoaLichLamViec;
@@ -279,7 +247,6 @@
         private System.Windows.Forms.DataGridView dgvCapNhatLichLamViec;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btnXemLai;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cbxCa;
         private System.Windows.Forms.DateTimePicker dtpNgayLamViec;
         private System.Windows.Forms.ComboBox cbxTenNV;

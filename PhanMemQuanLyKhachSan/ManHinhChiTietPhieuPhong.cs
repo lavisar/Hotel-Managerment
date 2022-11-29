@@ -270,5 +270,10 @@ namespace PhanMemQuanLyKhachSan
             }
             catch { }
         }
+
+        private void txtChiTietSoKhach_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

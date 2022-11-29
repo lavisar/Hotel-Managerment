@@ -17,6 +17,8 @@ namespace PhanMemQuanLyKhachSan.Model
         [StringLength(50)]
         public string password { get; set; }
     }
+
+    // Dùng Linq truy v?n mk
     public partial class MatKhau
     {
         public List<MatKhau> GetAll()

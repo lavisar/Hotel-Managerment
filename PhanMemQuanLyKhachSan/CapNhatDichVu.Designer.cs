@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblDichVuKhachSan = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnThoatCapNhatDichVu = new System.Windows.Forms.Button();
             this.btnLuuCapNhatDichVu = new System.Windows.Forms.Button();
             this.btnThemDichVu = new System.Windows.Forms.Button();
             this.btnXoaDichVu = new System.Windows.Forms.Button();
@@ -41,19 +39,10 @@
             this.Gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtCapNhatDichVu = new System.Windows.Forms.TextBox();
             this.txtGia = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCapNhatDichVu)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lblDichVuKhachSan
-            // 
-            this.lblDichVuKhachSan.AutoSize = true;
-            this.lblDichVuKhachSan.BackColor = System.Drawing.Color.Transparent;
-            this.lblDichVuKhachSan.Font = new System.Drawing.Font("Palatino Linotype", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDichVuKhachSan.Location = new System.Drawing.Point(323, 9);
-            this.lblDichVuKhachSan.Name = "lblDichVuKhachSan";
-            this.lblDichVuKhachSan.Size = new System.Drawing.Size(334, 47);
-            this.lblDichVuKhachSan.TabIndex = 0;
-            this.lblDichVuKhachSan.Text = "Dịch Vụ Khách Sạn";
             // 
             // label2
             // 
@@ -63,80 +52,65 @@
             this.label2.Size = new System.Drawing.Size(0, 13);
             this.label2.TabIndex = 1;
             // 
-            // btnThoatCapNhatDichVu
-            // 
-            this.btnThoatCapNhatDichVu.BackColor = System.Drawing.Color.Pink;
-            this.btnThoatCapNhatDichVu.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThoatCapNhatDichVu.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
-            this.btnThoatCapNhatDichVu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThoatCapNhatDichVu.Location = new System.Drawing.Point(12, 11);
-            this.btnThoatCapNhatDichVu.Name = "btnThoatCapNhatDichVu";
-            this.btnThoatCapNhatDichVu.Size = new System.Drawing.Size(101, 45);
-            this.btnThoatCapNhatDichVu.TabIndex = 2;
-            this.btnThoatCapNhatDichVu.Text = "Trở Về";
-            this.btnThoatCapNhatDichVu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnThoatCapNhatDichVu.UseVisualStyleBackColor = false;
-            this.btnThoatCapNhatDichVu.Click += new System.EventHandler(this.Button1_Click);
-            // 
             // btnLuuCapNhatDichVu
             // 
-            this.btnLuuCapNhatDichVu.BackColor = System.Drawing.Color.Pink;
-            this.btnLuuCapNhatDichVu.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLuuCapNhatDichVu.BackColor = System.Drawing.Color.Honeydew;
+            this.btnLuuCapNhatDichVu.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLuuCapNhatDichVu.ForeColor = System.Drawing.Color.IndianRed;
             this.btnLuuCapNhatDichVu.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconLuu;
             this.btnLuuCapNhatDichVu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLuuCapNhatDichVu.Location = new System.Drawing.Point(893, 218);
+            this.btnLuuCapNhatDichVu.Location = new System.Drawing.Point(828, 383);
             this.btnLuuCapNhatDichVu.Name = "btnLuuCapNhatDichVu";
-            this.btnLuuCapNhatDichVu.Size = new System.Drawing.Size(84, 45);
+            this.btnLuuCapNhatDichVu.Size = new System.Drawing.Size(132, 37);
             this.btnLuuCapNhatDichVu.TabIndex = 3;
-            this.btnLuuCapNhatDichVu.Text = "Lưu";
-            this.btnLuuCapNhatDichVu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnLuuCapNhatDichVu.Text = "SAVE";
             this.btnLuuCapNhatDichVu.UseVisualStyleBackColor = false;
             this.btnLuuCapNhatDichVu.Click += new System.EventHandler(this.btnLuuCapNhatDichVu_Click);
             // 
             // btnThemDichVu
             // 
-            this.btnThemDichVu.BackColor = System.Drawing.Color.Pink;
-            this.btnThemDichVu.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemDichVu.BackColor = System.Drawing.Color.Honeydew;
+            this.btnThemDichVu.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemDichVu.ForeColor = System.Drawing.Color.IndianRed;
             this.btnThemDichVu.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconThem;
             this.btnThemDichVu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThemDichVu.Location = new System.Drawing.Point(586, 218);
+            this.btnThemDichVu.Location = new System.Drawing.Point(529, 383);
             this.btnThemDichVu.Name = "btnThemDichVu";
-            this.btnThemDichVu.Size = new System.Drawing.Size(152, 45);
+            this.btnThemDichVu.Size = new System.Drawing.Size(132, 37);
             this.btnThemDichVu.TabIndex = 4;
-            this.btnThemDichVu.Text = "Thêm Dịch Vụ";
-            this.btnThemDichVu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnThemDichVu.Text = "ADD";
             this.btnThemDichVu.UseVisualStyleBackColor = false;
             this.btnThemDichVu.Click += new System.EventHandler(this.btnThemDichVu_Click);
             // 
             // btnXoaDichVu
             // 
-            this.btnXoaDichVu.BackColor = System.Drawing.Color.Pink;
-            this.btnXoaDichVu.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaDichVu.BackColor = System.Drawing.Color.Honeydew;
+            this.btnXoaDichVu.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaDichVu.ForeColor = System.Drawing.Color.IndianRed;
             this.btnXoaDichVu.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconDelete;
             this.btnXoaDichVu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoaDichVu.Location = new System.Drawing.Point(744, 218);
+            this.btnXoaDichVu.Location = new System.Drawing.Point(679, 383);
             this.btnXoaDichVu.Name = "btnXoaDichVu";
-            this.btnXoaDichVu.Size = new System.Drawing.Size(143, 45);
+            this.btnXoaDichVu.Size = new System.Drawing.Size(132, 37);
             this.btnXoaDichVu.TabIndex = 5;
-            this.btnXoaDichVu.Text = "Xóa Dịch Vụ";
-            this.btnXoaDichVu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnXoaDichVu.Text = "DELETE";
             this.btnXoaDichVu.UseVisualStyleBackColor = false;
             this.btnXoaDichVu.Click += new System.EventHandler(this.btnXoaDichVu_Click);
             // 
             // dgvCapNhatDichVu
             // 
             this.dgvCapNhatDichVu.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvCapNhatDichVu.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.dgvCapNhatDichVu.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.dgvCapNhatDichVu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCapNhatDichVu.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.stt,
             this.id,
             this.TenDichVu,
             this.Gia});
-            this.dgvCapNhatDichVu.Location = new System.Drawing.Point(26, 108);
+            this.dgvCapNhatDichVu.Location = new System.Drawing.Point(27, 279);
             this.dgvCapNhatDichVu.Name = "dgvCapNhatDichVu";
             this.dgvCapNhatDichVu.ReadOnly = true;
-            this.dgvCapNhatDichVu.Size = new System.Drawing.Size(542, 556);
+            this.dgvCapNhatDichVu.Size = new System.Drawing.Size(478, 346);
             this.dgvCapNhatDichVu.TabIndex = 6;
             this.dgvCapNhatDichVu.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cell_Click);
             // 
@@ -170,55 +144,62 @@
             // 
             // txtCapNhatDichVu
             // 
+            this.txtCapNhatDichVu.BackColor = System.Drawing.Color.MediumAquamarine;
             this.txtCapNhatDichVu.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCapNhatDichVu.Location = new System.Drawing.Point(593, 108);
+            this.txtCapNhatDichVu.Location = new System.Drawing.Point(529, 279);
             this.txtCapNhatDichVu.Multiline = true;
             this.txtCapNhatDichVu.Name = "txtCapNhatDichVu";
-            this.txtCapNhatDichVu.Size = new System.Drawing.Size(384, 37);
+            this.txtCapNhatDichVu.Size = new System.Drawing.Size(431, 29);
             this.txtCapNhatDichVu.TabIndex = 7;
             this.txtCapNhatDichVu.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // txtGia
             // 
+            this.txtGia.BackColor = System.Drawing.Color.MediumAquamarine;
             this.txtGia.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGia.Location = new System.Drawing.Point(593, 151);
+            this.txtGia.Location = new System.Drawing.Point(529, 324);
             this.txtGia.Multiline = true;
             this.txtGia.Name = "txtGia";
-            this.txtGia.Size = new System.Drawing.Size(384, 41);
+            this.txtGia.Size = new System.Drawing.Size(430, 29);
             this.txtGia.TabIndex = 7;
             this.txtGia.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(814, 257);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(145, 117);
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
             // frmCapNhatDichVu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.b14;
+            this.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.nenCNDV;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(989, 676);
             this.Controls.Add(this.txtGia);
             this.Controls.Add(this.txtCapNhatDichVu);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dgvCapNhatDichVu);
             this.Controls.Add(this.btnXoaDichVu);
             this.Controls.Add(this.btnThemDichVu);
             this.Controls.Add(this.btnLuuCapNhatDichVu);
-            this.Controls.Add(this.btnThoatCapNhatDichVu);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.lblDichVuKhachSan);
             this.Name = "frmCapNhatDichVu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cập Nhật Dịch Vụ";
             this.Load += new System.EventHandler(this.frmCapNhatDichVu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCapNhatDichVu)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lblDichVuKhachSan;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnThoatCapNhatDichVu;
         private System.Windows.Forms.Button btnLuuCapNhatDichVu;
         private System.Windows.Forms.Button btnThemDichVu;
         private System.Windows.Forms.Button btnXoaDichVu;
@@ -229,5 +210,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn TenDichVu;
         private System.Windows.Forms.DataGridViewTextBoxColumn Gia;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

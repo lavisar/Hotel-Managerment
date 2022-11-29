@@ -58,6 +58,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActiveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActiveForm.Designer.cs">
+      <DependentUpon>ActiveForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CapNhapLichLamViec.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +93,12 @@
     </Compile>
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\ChiTietHoaDon.cs" />
     <Compile Include="Model\DichVu.cs" />
@@ -155,6 +167,9 @@
     <Compile Include="CapNhatThongTinNhanVien.Designer.cs">
       <DependentUpon>CapNhatThongTinNhanVien.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ActiveForm.resx">
+      <DependentUpon>ActiveForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CapNhapLichLamViec.resx">
       <DependentUpon>CapNhapLichLamViec.cs</DependentUpon>
     </EmbeddedResource>
@@ -169,6 +184,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThongKe.resx">
       <DependentUpon>ThongKe.cs</DependentUpon>
@@ -283,6 +301,7 @@
     <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\white-lock-icon-png-16.jpg" />
     <None Include="Resources\backGroundQLP.png" />
     <None Include="Resources\b1.jpg" />
     <None Include="Resources\b2.jpg" />
@@ -297,6 +316,32 @@
     <None Include="Resources\b15.png" />
     <None Include="Resources\b18.jpg" />
     <None Include="Resources\b17.jpg" />
+    <None Include="Resources\Black and white minimalist jewelry logo %281%29.gif" />
+    <None Include="Resources\Black and white minimalist jewelry logo %282%29.gif" />
+    <None Include="Resources\Black and white minimalist jewelry logo %283%29.gif" />
+    <None Include="Resources\Black and white minimalist jewelry logo %284%29.gif" />
+    <None Include="Resources\background.jpg" />
+    <None Include="Resources\bgmenu.jpg" />
+    <None Include="Resources\bgmenu1.jpg" />
+    <Content Include="Music\y2meta.com-a-vintage-christmas-playlist-��-_-slowed-playlist-_128-kbps_.wav" />
+    <None Include="Resources\1907_khung-vien-ppt-dep7.jpg" />
+    <None Include="Resources\1586129_b7e8a.gif" />
+    <None Include="Resources\bgmenu2.jpg" />
+    <None Include="Resources\210628-1-2000-din-LTHA.jpg.thumb.768.768.jpg" />
+    <None Include="Resources\273782150.jpg" />
+    <None Include="Resources\145430935.jpg" />
+    <None Include="Resources\Beige Minimalist Creative Agency Website Desktop Prototype.jpg" />
+    <None Include="Resources\Beige Minimalist Creative Agency Website Desktop Prototype1.jpg" />
+    <None Include="Resources\Beige Minimalist Creative Agency Website Desktop Prototype2.jpg" />
+    <None Include="Resources\Bản sao Beige Minimalist Creative Agency Website Desktop Prototype.png" />
+    <None Include="Resources\Bản sao Beige Minimalist Creative Agency Website Desktop Prototype1.png" />
+    <None Include="Resources\anhnen.png" />
+    <None Include="Resources\Beige Minimalist Creative Agency Website Desktop Prototype.png" />
+    <None Include="Resources\bed.jpg" />
+    <None Include="Resources\111.png" />
+    <None Include="Resources\2121.png" />
+    <None Include="Resources\CNVT.jpg" />
+    <None Include="Resources\Beige Minimalist Creative Agency Website Desktop Prototype1.png" />
     <Content Include="Resources\download.jpg" />
     <None Include="Resources\iconQuanLyPhong.png" />
     <None Include="Resources\iconQuanLyNhanVien.png" />
@@ -304,6 +349,45 @@
     <None Include="Resources\iconQuanLyKhachHang.png" />
     <None Include="Resources\iconThongKe.png" />
     <None Include="Resources\iconLienHe.png" />
+    <None Include="Resources\THE ROYAL_KV.jpg" />
+    <None Include="Resources\nền.jpg" />
+    <None Include="Resources\icon_User.png" />
+    <None Include="Resources\Icon_User2.png" />
+    <None Include="Resources\Icon_Pass.png" />
+    <None Include="Resources\icon_PW.jpg" />
+    <None Include="Resources\showIcon.jpg" />
+    <None Include="Resources\ShowIC.png" />
+    <None Include="Resources\Menu_nen.jpg" />
+    <None Include="Resources\phong.png" />
+    <None Include="Resources\hotel.png" />
+    <None Include="Resources\hotel1.png" />
+    <None Include="Resources\nen1.jpeg" />
+    <None Include="Resources\note.png" />
+    <None Include="Resources\nen2.jpg" />
+    <None Include="Resources\note3.png" />
+    <None Include="Resources\nen_QLPhong.jpg" />
+    <None Include="Resources\pngtree-black-floral-leaves-circle-frame-ornament-png-image_8481608.png" />
+    <None Include="Resources\pngtree-golden-circle-frame-with-beauty-floral-vintage-ornament-vector-illustration-png-image_2388948.jpg" />
+    <None Include="Resources\pngtree-golden-border-frame-png-image_6105517.png" />
+    <None Include="Resources\png-clipart-christmas-elderly-explosion-models-recommended-zone-christmas-santa-claus-thumbnail.png" />
+    <None Include="Resources\pngtree-search-index-magnifying-glass-frame-png-image_4246889.png" />
+    <None Include="Resources\pngegg.png" />
+    <None Include="Resources\khung-vien-dep-powerpoint_022258315.png" />
+    <None Include="Resources\khung-vien-tron-don-gian_045157655.png" />
+    <None Include="Resources\grill-63-hanoi-night.jpg" />
+    <None Include="Resources\Restaurant-Grill-63-1-1024x682.jpg" />
+    <None Include="Resources\LTH_HOTEL_T2_13.jpg" />
+    <None Include="Resources\image.png" />
+    <None Include="Resources\nenCNDV.jpg" />
+    <None Include="Resources\QLNV.png" />
+    <None Include="Resources\nenCNNV.jpg" />
+    <None Include="Resources\TTNV.jpg" />
+    <None Include="Resources\nenKH.jpg" />
+    <None Include="Resources\lienhe.jpg" />
+    <None Include="Resources\Nen.jpg" />
+    <None Include="Resources\DV.png" />
+    <None Include="Resources\ou-dormir-phuket-ile-1.jpg" />
+    <None Include="Resources\ffa831cbe2eedcbc2e7f7b5b46ce0ec1.jpg" />
     <Content Include="Resources\user.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

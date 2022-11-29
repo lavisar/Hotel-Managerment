@@ -52,7 +52,6 @@ namespace PhanMemQuanLyKhachSan
         {
             frmCapNhatLoaiPhong fmb = new frmCapNhatLoaiPhong();
             fmb.Show();
-            this.Hide();
         }
         private void fmb_FormClosed(object sender, FormClosedEventArgs e)
         {
@@ -63,7 +62,6 @@ namespace PhanMemQuanLyKhachSan
         {
             frmCapNhatDichVu fmdv = new frmCapNhatDichVu();
             fmdv.Show();
-            this.Hide();
         }
         private void fmdv_FormClosed(object sender, FormClosedEventArgs e)
         {
@@ -74,19 +72,12 @@ namespace PhanMemQuanLyKhachSan
         {
             frmCapNhatVatTu fmvt = new frmCapNhatVatTu();
             fmvt.Show();
-            this.Hide();
         }
         private void fmvt_FormClosed(object sender, FormClosedEventArgs e)
         {
             this.Show();
         }
 
-        private void BtnTroVeCuaCTPP_Click(object sender, EventArgs e)
-        {
-            frmManHinhChinh mhc = new frmManHinhChinh();
-            mhc.Show();
-            this.Hide();
-        }
 
         private void dgvQuanLyPhong_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -107,6 +98,11 @@ namespace PhanMemQuanLyKhachSan
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblQuanLyNhanVien_Click(object sender, EventArgs e)
         {
 
         }

@@ -33,7 +33,6 @@
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.label1 = new System.Windows.Forms.Label();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.btnTroVeCuaThongKe = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,26 +68,11 @@
             this.chart1.TabIndex = 1;
             this.chart1.Text = "Doanh Thu Khách Sạn 2019";
             // 
-            // btnTroVeCuaThongKe
-            // 
-            this.btnTroVeCuaThongKe.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTroVeCuaThongKe.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
-            this.btnTroVeCuaThongKe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTroVeCuaThongKe.Location = new System.Drawing.Point(12, 11);
-            this.btnTroVeCuaThongKe.Name = "btnTroVeCuaThongKe";
-            this.btnTroVeCuaThongKe.Size = new System.Drawing.Size(101, 37);
-            this.btnTroVeCuaThongKe.TabIndex = 10;
-            this.btnTroVeCuaThongKe.Text = "Trở về";
-            this.btnTroVeCuaThongKe.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnTroVeCuaThongKe.UseVisualStyleBackColor = true;
-            this.btnTroVeCuaThongKe.Click += new System.EventHandler(this.btnTroVeCuaThongKe_Click);
-            // 
             // frmThongKe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 541);
-            this.Controls.Add(this.btnTroVeCuaThongKe);
             this.Controls.Add(this.chart1);
             this.Controls.Add(this.label1);
             this.Name = "frmThongKe";
@@ -105,6 +89,5 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-        private System.Windows.Forms.Button btnTroVeCuaThongKe;
     }
 }
