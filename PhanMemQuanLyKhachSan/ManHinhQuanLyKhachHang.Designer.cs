@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblQuanLyKhachHang = new System.Windows.Forms.Label();
             this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.lblNgayDen = new System.Windows.Forms.Label();
@@ -79,6 +79,7 @@
             this.lblNgayDen.Size = new System.Drawing.Size(60, 26);
             this.lblNgayDen.TabIndex = 5;
             this.lblNgayDen.Text = "From";
+            this.lblNgayDen.Visible = false;
             // 
             // lblNgayDi
             // 
@@ -90,11 +91,12 @@
             this.lblNgayDi.Size = new System.Drawing.Size(36, 26);
             this.lblNgayDi.TabIndex = 7;
             this.lblNgayDi.Text = "To";
+            this.lblNgayDi.Visible = false;
             // 
             // dgvQuanLyKhachHang
             // 
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvQuanLyKhachHang.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvQuanLyKhachHang.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvQuanLyKhachHang.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvQuanLyKhachHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvQuanLyKhachHang.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -133,6 +135,7 @@
             this.dtpTuNgay.Name = "dtpTuNgay";
             this.dtpTuNgay.Size = new System.Drawing.Size(146, 22);
             this.dtpTuNgay.TabIndex = 10;
+            this.dtpTuNgay.Visible = false;
             // 
             // dateTimePicker2
             // 
@@ -140,6 +143,7 @@
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(149, 22);
             this.dateTimePicker2.TabIndex = 11;
+            this.dateTimePicker2.Visible = false;
             // 
             // btnLoc
             // 
@@ -154,6 +158,7 @@
             this.btnLoc.Text = "FILTER";
             this.btnLoc.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLoc.UseVisualStyleBackColor = false;
+            this.btnLoc.Visible = false;
             this.btnLoc.Click += new System.EventHandler(this.btnLoc_Click);
             // 
             // btnTimKiem

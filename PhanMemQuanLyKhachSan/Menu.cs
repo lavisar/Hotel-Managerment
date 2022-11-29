@@ -80,5 +80,10 @@ namespace PhanMemQuanLyKhachSan
         {
             openChildForm(new Report());
         }
+
+        private void bntreport2_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Report2());
+        }
     }
 }

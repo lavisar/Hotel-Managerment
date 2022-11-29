@@ -136,7 +136,14 @@
     <Compile Include="Report.Designer.cs">
       <DependentUpon>Report.cs</DependentUpon>
     </Compile>
+    <Compile Include="Report2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report2.Designer.cs">
+      <DependentUpon>Report2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reportings\ThongKeHoaDon.cs" />
+    <Compile Include="Reportings\ThongKeKhachHang.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="ThongKe.cs">
       <SubType>Form</SubType>
@@ -217,7 +224,11 @@
     <EmbeddedResource Include="Report.resx">
       <DependentUpon>Report.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Report2.resx">
+      <DependentUpon>Report2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reportings\ReportKetQuaHoaDon.rdlc" />
+    <EmbeddedResource Include="Reportings\ReportKetQuaKhachHang.rdlc" />
     <EmbeddedResource Include="ThongKe.resx">
       <DependentUpon>ThongKe.cs</DependentUpon>
     </EmbeddedResource>
@@ -249,6 +260,7 @@
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\PhanMemQuanLyKhachSan.Reportings.ThongKeHoaDon.datasource" />
+    <None Include="Properties\DataSources\PhanMemQuanLyKhachSan.Reportings.ThongKeKhachHang.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -332,6 +344,7 @@
     <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Beige Minimalist Creative Agency Website Desktop Prototype3.jpg" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

@@ -373,6 +373,16 @@ namespace PhanMemQuanLyKhachSan.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Beige_Minimalist_Creative_Agency_Website_Desktop_Prototype5 {
+            get {
+                object obj = ResourceManager.GetObject("Beige Minimalist Creative Agency Website Desktop Prototype5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bgmenu {
             get {
                 object obj = ResourceManager.GetObject("bgmenu", resourceCulture);

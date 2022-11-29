@@ -169,9 +169,6 @@
   <data name="DV" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconThem" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconThem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Beige Minimalist Creative Agency Website Desktop Prototype2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Beige Minimalist Creative Agency Website Desktop Prototype2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -196,17 +193,11 @@
   <data name="b18" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\b18.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="b8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="phong" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\phong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="note3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\note3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2588798" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2588798.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="nen_QLPhong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nen_QLPhong.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_PW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_PW.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -219,6 +210,9 @@
   </data>
   <data name="iconLuu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconLuu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="note" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\note.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="b3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\b3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,6 +232,9 @@
   <data name="Bản sao Beige Minimalist Creative Agency Website Desktop Prototype1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bản sao Beige Minimalist Creative Agency Website Desktop Prototype1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="nenCNDV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nenCNDV.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="210628-1-2000-din-LTHA.jpg.thumb.768.768" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\210628-1-2000-din-LTHA.jpg.thumb.768.768.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -249,9 +246,6 @@
   </data>
   <data name="pngtree-black-floral-leaves-circle-frame-ornament-png-image_8481608" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngtree-black-floral-leaves-circle-frame-ornament-png-image_8481608.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nen1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="white-lock-icon-png-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\white-lock-icon-png-16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -273,6 +267,9 @@
   </data>
   <data name="png-clipart-christmas-elderly-explosion-models-recommended-zone-christmas-santa-claus-thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\png-clipart-christmas-elderly-explosion-models-recommended-zone-christmas-santa-claus-thumbnail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconQuanLyPhong" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconQuanLyPhong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -303,6 +300,12 @@
   </data>
   <data name="Beige Minimalist Creative Agency Website Desktop Prototype4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Beige Minimalist Creative Agency Website Desktop Prototype1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="khung-vien-dep-powerpoint_022258315" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\khung-vien-dep-powerpoint_022258315.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconDelete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ou-dormir-phuket-ile-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ou-dormir-phuket-ile-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -343,8 +346,8 @@
   <data name="1907_khung-vien-ppt-dep7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1907_khung-vien-ppt-dep7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nen2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nen2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hotel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hotel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IconPhongO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconPhongO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -355,8 +358,8 @@
   <data name="b17" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\b17.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hotel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hotel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="note3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\note3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Black and white minimalist jewelry logo (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Black and white minimalist jewelry logo (4).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -367,9 +370,6 @@
   <data name="145430935" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\145430935.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Restaurant-Grill-63-1-1024x682" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Restaurant-Grill-63-1-1024x682.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -379,11 +379,8 @@
   <data name="pngtree-golden-border-frame-png-image_6105517" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngtree-golden-border-frame-png-image_6105517.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TTNV" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TTNV.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="khung-vien-dep-powerpoint_022258315" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\khung-vien-dep-powerpoint_022258315.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="2588798" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2588798.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="b15" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\b15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -394,14 +391,17 @@
   <data name="IconPhongTrong" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconPhongTrong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="iconUser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconUser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="iconQuanLyKhachHang" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconQuanLyKhachHang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Beige Minimalist Creative Agency Website Desktop Prototype3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Beige Minimalist Creative Agency Website Desktop Prototype.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nen_QLPhong" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nen_QLPhong.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="iconThem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconThem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="b13" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\b13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -409,8 +409,8 @@
   <data name="111" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconDelete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -418,14 +418,17 @@
   <data name="pngegg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngegg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ffa831cbe2eedcbc2e7f7b5b46ce0ec1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ffa831cbe2eedcbc2e7f7b5b46ce0ec1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Black and white minimalist jewelry logo (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Black and white minimalist jewelry logo (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="note" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\note.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TTNV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TTNV.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconUser" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconUser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="2121" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -433,13 +436,13 @@
   <data name="Menu_nen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Menu_nen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Nen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="nen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nen1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nenCNDV" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nenCNDV.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="nen2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nen2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ffa831cbe2eedcbc2e7f7b5b46ce0ec1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ffa831cbe2eedcbc2e7f7b5b46ce0ec1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Beige Minimalist Creative Agency Website Desktop Prototype5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Beige Minimalist Creative Agency Website Desktop Prototype3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

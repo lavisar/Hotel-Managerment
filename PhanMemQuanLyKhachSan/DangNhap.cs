@@ -106,7 +106,7 @@ namespace PhanMemQuanLyKhachSan
 //<<<<<<< HEAD
             MessageBox.Show("Đăng ký ADMIN nhé!");
 //=======
-            MessageBox.Show("Chức năng hiện chưa có, trở lại sau bạn nhé!");
+            //MessageBox.Show("Chức năng hiện chưa có, trở lại sau bạn nhé!");
 //>>>>>>> 7afceaeaa667e1cc7033622aa8a0c5b29f6e55f2
         }
 
@@ -162,7 +162,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void label1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Quên thì đi hỏi ADMIN nhé!");
+            MessageBox.Show("Quên thì hỏi ADMIN nhé!");
         }
 
         private void label2_Click(object sender, EventArgs e)

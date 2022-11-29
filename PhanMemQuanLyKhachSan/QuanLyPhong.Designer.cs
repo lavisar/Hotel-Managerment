@@ -129,6 +129,7 @@
             this.btnCapNhatLoaiPhong.TabIndex = 2;
             this.btnCapNhatLoaiPhong.Text = "Cập nhật loại phòng";
             this.btnCapNhatLoaiPhong.UseVisualStyleBackColor = false;
+            this.btnCapNhatLoaiPhong.Visible = false;
             this.btnCapNhatLoaiPhong.Click += new System.EventHandler(this.ButtonCapNhapLoaiPhong_Click);
             // 
             // panel1

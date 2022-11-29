@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.pnl1 = new System.Windows.Forms.Panel();
+            this.bntreport2 = new System.Windows.Forms.Button();
+            this.bntReport1 = new System.Windows.Forms.Button();
             this.bntThoat = new System.Windows.Forms.Button();
             this.bntQLKH = new System.Windows.Forms.Button();
             this.bntLienHe = new System.Windows.Forms.Button();
@@ -38,14 +40,14 @@
             this.bntDatPhong = new System.Windows.Forms.Button();
             this.pnl2 = new System.Windows.Forms.Panel();
             this.bntHome = new System.Windows.Forms.Button();
-            this.bntReport = new System.Windows.Forms.Button();
             this.pnl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnl1
             // 
             this.pnl1.BackColor = System.Drawing.Color.White;
-            this.pnl1.Controls.Add(this.bntReport);
+            this.pnl1.Controls.Add(this.bntreport2);
+            this.pnl1.Controls.Add(this.bntReport1);
             this.pnl1.Controls.Add(this.bntThoat);
             this.pnl1.Controls.Add(this.bntQLKH);
             this.pnl1.Controls.Add(this.bntLienHe);
@@ -59,15 +61,43 @@
             this.pnl1.Size = new System.Drawing.Size(1128, 32);
             this.pnl1.TabIndex = 0;
             // 
+            // bntreport2
+            // 
+            this.bntreport2.FlatAppearance.BorderSize = 0;
+            this.bntreport2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bntreport2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntreport2.Location = new System.Drawing.Point(885, 0);
+            this.bntreport2.Margin = new System.Windows.Forms.Padding(2);
+            this.bntreport2.Name = "bntreport2";
+            this.bntreport2.Size = new System.Drawing.Size(93, 32);
+            this.bntreport2.TabIndex = 9;
+            this.bntreport2.Text = "Report 2";
+            this.bntreport2.UseVisualStyleBackColor = true;
+            this.bntreport2.Click += new System.EventHandler(this.bntreport2_Click);
+            // 
+            // bntReport1
+            // 
+            this.bntReport1.FlatAppearance.BorderSize = 0;
+            this.bntReport1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bntReport1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntReport1.Location = new System.Drawing.Point(796, 0);
+            this.bntReport1.Margin = new System.Windows.Forms.Padding(2);
+            this.bntReport1.Name = "bntReport1";
+            this.bntReport1.Size = new System.Drawing.Size(90, 32);
+            this.bntReport1.TabIndex = 8;
+            this.bntReport1.Text = "Report 1";
+            this.bntReport1.UseVisualStyleBackColor = true;
+            this.bntReport1.Click += new System.EventHandler(this.bntReport_Click);
+            // 
             // bntThoat
             // 
             this.bntThoat.FlatAppearance.BorderSize = 0;
             this.bntThoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bntThoat.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntThoat.Location = new System.Drawing.Point(813, 0);
+            this.bntThoat.Location = new System.Drawing.Point(976, 0);
             this.bntThoat.Margin = new System.Windows.Forms.Padding(2);
             this.bntThoat.Name = "bntThoat";
-            this.bntThoat.Size = new System.Drawing.Size(142, 32);
+            this.bntThoat.Size = new System.Drawing.Size(106, 32);
             this.bntThoat.TabIndex = 7;
             this.bntThoat.Text = "Log out";
             this.bntThoat.UseVisualStyleBackColor = true;
@@ -79,10 +109,10 @@
             this.bntQLKH.FlatAppearance.BorderSize = 0;
             this.bntQLKH.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bntQLKH.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntQLKH.Location = new System.Drawing.Point(446, 0);
+            this.bntQLKH.Location = new System.Drawing.Point(442, 0);
             this.bntQLKH.Margin = new System.Windows.Forms.Padding(2);
             this.bntQLKH.Name = "bntQLKH";
-            this.bntQLKH.Size = new System.Drawing.Size(174, 32);
+            this.bntQLKH.Size = new System.Drawing.Size(156, 32);
             this.bntQLKH.TabIndex = 4;
             this.bntQLKH.Text = "Quản lý khách hàng";
             this.bntQLKH.UseVisualStyleBackColor = true;
@@ -93,10 +123,10 @@
             this.bntLienHe.FlatAppearance.BorderSize = 0;
             this.bntLienHe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bntLienHe.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntLienHe.Location = new System.Drawing.Point(715, 0);
+            this.bntLienHe.Location = new System.Drawing.Point(702, 0);
             this.bntLienHe.Margin = new System.Windows.Forms.Padding(2);
             this.bntLienHe.Name = "bntLienHe";
-            this.bntLienHe.Size = new System.Drawing.Size(129, 32);
+            this.bntLienHe.Size = new System.Drawing.Size(98, 32);
             this.bntLienHe.TabIndex = 6;
             this.bntLienHe.Text = "About";
             this.bntLienHe.UseVisualStyleBackColor = true;
@@ -110,7 +140,7 @@
             this.bntThongKe.Location = new System.Drawing.Point(602, 0);
             this.bntThongKe.Margin = new System.Windows.Forms.Padding(2);
             this.bntThongKe.Name = "bntThongKe";
-            this.bntThongKe.Size = new System.Drawing.Size(142, 32);
+            this.bntThongKe.Size = new System.Drawing.Size(104, 32);
             this.bntThongKe.TabIndex = 5;
             this.bntThongKe.Text = "Thống kê";
             this.bntThongKe.UseVisualStyleBackColor = true;
@@ -122,7 +152,7 @@
             this.bntQLNV.FlatAppearance.BorderSize = 0;
             this.bntQLNV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bntQLNV.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntQLNV.Location = new System.Drawing.Point(294, 0);
+            this.bntQLNV.Location = new System.Drawing.Point(290, 0);
             this.bntQLNV.Margin = new System.Windows.Forms.Padding(2);
             this.bntQLNV.Name = "bntQLNV";
             this.bntQLNV.Size = new System.Drawing.Size(152, 32);
@@ -140,7 +170,7 @@
             this.bntQLPhong.Location = new System.Drawing.Point(142, 0);
             this.bntQLPhong.Margin = new System.Windows.Forms.Padding(2);
             this.bntQLPhong.Name = "bntQLPhong";
-            this.bntQLPhong.Size = new System.Drawing.Size(152, 32);
+            this.bntQLPhong.Size = new System.Drawing.Size(148, 32);
             this.bntQLPhong.TabIndex = 2;
             this.bntQLPhong.Text = "Quản lý phòng";
             this.bntQLPhong.UseVisualStyleBackColor = true;
@@ -187,26 +217,12 @@
             this.bntHome.UseVisualStyleBackColor = true;
             this.bntHome.Click += new System.EventHandler(this.button1_Click);
             // 
-            // bntReport
-            // 
-            this.bntReport.FlatAppearance.BorderSize = 0;
-            this.bntReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntReport.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntReport.Location = new System.Drawing.Point(951, 0);
-            this.bntReport.Margin = new System.Windows.Forms.Padding(2);
-            this.bntReport.Name = "bntReport";
-            this.bntReport.Size = new System.Drawing.Size(127, 32);
-            this.bntReport.TabIndex = 8;
-            this.bntReport.Text = "Report";
-            this.bntReport.UseVisualStyleBackColor = true;
-            this.bntReport.Click += new System.EventHandler(this.bntReport_Click);
-            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.Beige_Minimalist_Creative_Agency_Website_Desktop_Prototype2;
+            this.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.Beige_Minimalist_Creative_Agency_Website_Desktop_Prototype5;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1450, 780);
             this.ControlBox = false;
@@ -235,6 +251,7 @@
         private System.Windows.Forms.Button bntDatPhong;
         private System.Windows.Forms.Button bntThoat;
         private System.Windows.Forms.Button bntHome;
-        private System.Windows.Forms.Button bntReport;
+        private System.Windows.Forms.Button bntReport1;
+        private System.Windows.Forms.Button bntreport2;
     }
 }

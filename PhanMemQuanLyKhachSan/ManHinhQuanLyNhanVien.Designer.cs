@@ -56,7 +56,7 @@
             this.btnCapNhatLichLamViecNV.Name = "btnCapNhatLichLamViecNV";
             this.btnCapNhatLichLamViecNV.Size = new System.Drawing.Size(219, 46);
             this.btnCapNhatLichLamViecNV.TabIndex = 2;
-            this.btnCapNhatLichLamViecNV.Text = "Cập nhật lịch làm việc";
+            this.btnCapNhatLichLamViecNV.Text = "Xem lịch làm việc";
             this.btnCapNhatLichLamViecNV.UseVisualStyleBackColor = false;
             this.btnCapNhatLichLamViecNV.Click += new System.EventHandler(this.BtnCapnhatlichlvnv_Click);
             // 

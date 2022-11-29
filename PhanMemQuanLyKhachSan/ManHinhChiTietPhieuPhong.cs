@@ -283,15 +283,11 @@ namespace PhanMemQuanLyKhachSan
 
         }
 
-
-
         private void txtSoLuong_TextChanged(object sender, EventArgs e)
         {
             int thanhtien = int.Parse(lblThanhTien.Text);
             DichVu dv = DichVu.GetDichVu(int.Parse(cmbTenDichVu.SelectedValue.ToString()));
-
             int thanhtienDV;
-
             for (int i = 0; i < int.Parse(cmbTenDichVu.SelectedValue.ToString()); i++)
             {
                 thanhtienDV = dv.GiaDV.Value * int.Parse(txtSoLuong.Text);                    

@@ -90,6 +90,7 @@
             this.btnSuaLichLamViec.TabIndex = 13;
             this.btnSuaLichLamViec.Text = "FIX";
             this.btnSuaLichLamViec.UseVisualStyleBackColor = false;
+            this.btnSuaLichLamViec.Visible = false;
             this.btnSuaLichLamViec.Click += new System.EventHandler(this.btnSuaLichLamViec_Click);
             // 
             // btnXoaLichLamViec
@@ -120,6 +121,7 @@
             this.btnThemLichLamViec.Text = "ADD";
             this.btnThemLichLamViec.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnThemLichLamViec.UseVisualStyleBackColor = false;
+            this.btnThemLichLamViec.Visible = false;
             this.btnThemLichLamViec.Click += new System.EventHandler(this.btnThemLichLamViec_Click);
             // 
             // dgvCapNhatLichLamViec
@@ -170,6 +172,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(569, 31);
             this.textBox1.TabIndex = 17;
+            this.textBox1.Visible = false;
             // 
             // btnXemLai
             // 
@@ -181,6 +184,7 @@
             this.btnXemLai.TabIndex = 18;
             this.btnXemLai.Text = "REVIEW";
             this.btnXemLai.UseVisualStyleBackColor = false;
+            this.btnXemLai.Visible = false;
             // 
             // cbxCa
             // 
@@ -189,6 +193,7 @@
             this.cbxCa.Name = "cbxCa";
             this.cbxCa.Size = new System.Drawing.Size(223, 21);
             this.cbxCa.TabIndex = 21;
+            this.cbxCa.Visible = false;
             // 
             // dtpNgayLamViec
             // 
@@ -198,6 +203,7 @@
             this.dtpNgayLamViec.Name = "dtpNgayLamViec";
             this.dtpNgayLamViec.Size = new System.Drawing.Size(223, 20);
             this.dtpNgayLamViec.TabIndex = 22;
+            this.dtpNgayLamViec.Visible = false;
             // 
             // cbxTenNV
             // 
@@ -207,6 +213,7 @@
             this.cbxTenNV.Size = new System.Drawing.Size(223, 21);
             this.cbxTenNV.TabIndex = 23;
             this.cbxTenNV.Text = "hi";
+            this.cbxTenNV.Visible = false;
             // 
             // frmCapNhatLichLamViec
             // 
