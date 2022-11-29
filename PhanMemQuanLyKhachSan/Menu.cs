@@ -59,6 +59,7 @@ namespace PhanMemQuanLyKhachSan
             fmmhc.Show();
             this.Hide();
         }
+
         private Form activeForm = null;
         private void openChildForm(Form childForm)
         {
@@ -75,6 +76,9 @@ namespace PhanMemQuanLyKhachSan
             childForm.Show();
         }
 
-        
+        private void bntReport_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Report());
+        }
     }
 }

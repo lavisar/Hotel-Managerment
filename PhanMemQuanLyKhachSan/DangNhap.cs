@@ -12,6 +12,7 @@ using System.Windows.Forms;
 
 namespace PhanMemQuanLyKhachSan
 {
+    //DUNG MODEL MATKHAU
     public partial class frmDangNhap : Form
     {
         public frmDangNhap()
@@ -57,12 +58,14 @@ namespace PhanMemQuanLyKhachSan
                 txtMatKhau.ForeColor = Color.Silver;
             }
         }
-
+        // -----------------------------------------------------------------------------------
+        //XỬ LÍ EVENTS
+        // khi click chuột
         private void btnHienmatkhau_MouseDown(object sender, MouseEventArgs e)
         {
             txtMatKhau.UseSystemPasswordChar = false;
         }
-
+        // khi thả chuột
         private void btnHienmatkhau_MouseUp(object sender, MouseEventArgs e)
         {
             txtMatKhau.UseSystemPasswordChar = true;
@@ -77,7 +80,7 @@ namespace PhanMemQuanLyKhachSan
             
             string tenDangNhap = txtTenDangNhap.Text;
             string matKhau = txtMatKhau.Text;
-            var check = list.Where(item => item.username.Equals(tenDangNhap)).ToList();               
+            var check = list.Where(item => item.username.Equals(tenDangNhap)).ToList();   // Tìm trong List ktra có tk không      
             if(check.Count > 0)
             {
                 if(check[0].password.Equals(matKhau))
@@ -100,7 +103,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void btnDangKy_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Đăng ký với Thủy Tiên nhé!");
+            MessageBox.Show("Đăng ký ADMIN nhé!");
         }
 
         private void btnQuenMatKhau_Click(object sender, EventArgs e)
@@ -155,7 +158,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void label1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Quên thì đi hỏi Thủy Tiên nhé!");
+            MessageBox.Show("Quên thì đi hỏi ADMIN nhé!");
         }
 
         private void label2_Click(object sender, EventArgs e)

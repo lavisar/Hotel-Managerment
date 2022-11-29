@@ -18,10 +18,10 @@ namespace PhanMemQuanLyKhachSan.Model
         public string password { get; set; }
     }
 
-    // Dùng Linq truy v?n mk
+    // Lay ds mat khau
     public partial class MatKhau
     {
-        public List<MatKhau> GetAll()
+        public List<MatKhau> GetAll() 
         {
             QLKSModel context = new QLKSModel();
             return context.MatKhaus.ToList();

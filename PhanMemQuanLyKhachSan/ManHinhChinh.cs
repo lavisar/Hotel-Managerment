@@ -12,6 +12,7 @@ using System.Windows.Forms;
 
 namespace PhanMemQuanLyKhachSan
 {
+    // DUNG MODEL HOADON
     public partial class frmManHinhChinh : Form
     {
         public frmManHinhChinh()
@@ -19,14 +20,16 @@ namespace PhanMemQuanLyKhachSan
             InitializeComponent();
         }
           
-        public void SetBookingRoom()
+        public void SetBookingRoom() 
         {
             var listHD = HoaDon.GetAll();
             var hd1 = listHD.LastOrDefault(p => p.PhongID != null && p.PhongID == 1);
+            // listHD luu tru all HD, hd1 luu hoa don cuoi cung
+
             if (hd1 != null)  // cần thêm đk && ngay hoa don >= datetime.Now
             {
                 DateTime dt = DateTime.ParseExact(hd1.NgayHD, "dd/MM/yyyy", CultureInfo.InvariantCulture);
-                if (dt.Date >= DateTime.Now)
+                if (dt.Date >= DateTime.Now) // nế
                 {
                     Booking findBook = Booking.GetBooking(hd1.BookingID.Value);
                     if (findBook != null)
@@ -187,7 +190,7 @@ namespace PhanMemQuanLyKhachSan
             this.Show();
         }
 
-
+        // KO CAN THIET----------------------------------------------------------------
         private void quảnLýKháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmQuanLyKhachHang fmqlkh = new frmQuanLyKhachHang();
@@ -223,7 +226,7 @@ namespace PhanMemQuanLyKhachSan
             frmLienHe.Show();
             this.Hide();
         }
-
+        
         private void cậpNhậtVậtTưToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmCapNhatVatTu frmCapNhatVatTu = new frmCapNhatVatTu();
@@ -259,6 +262,8 @@ namespace PhanMemQuanLyKhachSan
             frmcnllv.Show();
             this.Hide();
         }
+
+        
         private void lblTien1_Click(object sender, EventArgs e)
         {
 
@@ -286,7 +291,7 @@ namespace PhanMemQuanLyKhachSan
             qlnv.Show();
             this.Hide();
         }
-
+        // ------------------------------------------------------------------------------
         private void pictureBox3_Click(object sender, EventArgs e)
         {
 
@@ -384,6 +389,8 @@ namespace PhanMemQuanLyKhachSan
             //lblNoiDungTien8.Text = ".........................................";
             lblPhong8.BackColor = Color.Gray;
         }
+
+        // Chon trang thai
 
         private void cmbPhong1_SelectedIndexChanged(object sender, EventArgs e)
         {

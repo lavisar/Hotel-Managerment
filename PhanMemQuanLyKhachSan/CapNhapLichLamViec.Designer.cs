@@ -206,6 +206,7 @@
             this.cbxTenNV.Name = "cbxTenNV";
             this.cbxTenNV.Size = new System.Drawing.Size(223, 21);
             this.cbxTenNV.TabIndex = 23;
+            this.cbxTenNV.Text = "hi";
             // 
             // frmCapNhatLichLamViec
             // 

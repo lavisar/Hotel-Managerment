@@ -275,5 +275,9 @@ namespace PhanMemQuanLyKhachSan
         {
 
         }
+
+        private void lblChiTietTongTien_TextChanged(object sender, EventArgs e)
+        {
+        }
     }
 }

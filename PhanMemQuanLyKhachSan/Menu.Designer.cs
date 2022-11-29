@@ -38,12 +38,14 @@
             this.bntDatPhong = new System.Windows.Forms.Button();
             this.pnl2 = new System.Windows.Forms.Panel();
             this.bntHome = new System.Windows.Forms.Button();
+            this.bntReport = new System.Windows.Forms.Button();
             this.pnl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnl1
             // 
             this.pnl1.BackColor = System.Drawing.Color.White;
+            this.pnl1.Controls.Add(this.bntReport);
             this.pnl1.Controls.Add(this.bntThoat);
             this.pnl1.Controls.Add(this.bntQLKH);
             this.pnl1.Controls.Add(this.bntLienHe);
@@ -54,7 +56,7 @@
             this.pnl1.Location = new System.Drawing.Point(132, 11);
             this.pnl1.Margin = new System.Windows.Forms.Padding(4, 2, 2, 4);
             this.pnl1.Name = "pnl1";
-            this.pnl1.Size = new System.Drawing.Size(1078, 32);
+            this.pnl1.Size = new System.Drawing.Size(1128, 32);
             this.pnl1.TabIndex = 0;
             // 
             // bntThoat
@@ -185,6 +187,20 @@
             this.bntHome.UseVisualStyleBackColor = true;
             this.bntHome.Click += new System.EventHandler(this.button1_Click);
             // 
+            // bntReport
+            // 
+            this.bntReport.FlatAppearance.BorderSize = 0;
+            this.bntReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bntReport.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntReport.Location = new System.Drawing.Point(951, 0);
+            this.bntReport.Margin = new System.Windows.Forms.Padding(2);
+            this.bntReport.Name = "bntReport";
+            this.bntReport.Size = new System.Drawing.Size(127, 32);
+            this.bntReport.TabIndex = 8;
+            this.bntReport.Text = "Report";
+            this.bntReport.UseVisualStyleBackColor = true;
+            this.bntReport.Click += new System.EventHandler(this.bntReport_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -219,5 +235,6 @@
         private System.Windows.Forms.Button bntDatPhong;
         private System.Windows.Forms.Button bntThoat;
         private System.Windows.Forms.Button bntHome;
+        private System.Windows.Forms.Button bntReport;
     }
 }

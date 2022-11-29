@@ -14,10 +14,13 @@ namespace PhanMemQuanLyKhachSan
 {
     public partial class frmQuanLyPhong : Form
     {
+        // DUNG MODEL LOAI PHONG - PHONG 
         public frmQuanLyPhong()
         {
             InitializeComponent();
         }
+
+        // design bang
         public void SetGridViewStyle(DataGridView dgview)
         {
             dgview.BorderStyle = BorderStyle.None;
@@ -36,7 +39,7 @@ namespace PhanMemQuanLyKhachSan
             dgview.MultiSelect = false;
             dgview.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
         }
-        private void BindGrid(List<Phong> listPhong)
+        private void BindGrid(List<Phong> listPhong) // LAY DU LIEU TU CSDL
         {
             dgvQuanLyPhong.Rows.Clear();
 
@@ -58,6 +61,8 @@ namespace PhanMemQuanLyKhachSan
             this.Show();
         }
 
+        // cap nhat dich vu
+
         private void Button2_Click(object sender, EventArgs e)
         {
             frmCapNhatDichVu fmdv = new frmCapNhatDichVu();
@@ -68,6 +73,7 @@ namespace PhanMemQuanLyKhachSan
             this.Show();
         }
 
+        // cap nhat vat tu
         private void Button1_Click(object sender, EventArgs e)
         {
             frmCapNhatVatTu fmvt = new frmCapNhatVatTu();

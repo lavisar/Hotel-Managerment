@@ -13,11 +13,13 @@ namespace PhanMemQuanLyKhachSan
 {
     public partial class frmCapNhatVatTu : Form
     {
+        // MODEL VAT TU
         public frmCapNhatVatTu()
         {
             InitializeComponent();
         }
 
+        // design bang
         public void SetGridViewStyle(DataGridView dgview)
         {
             dgview.BorderStyle = BorderStyle.None;
@@ -43,6 +45,7 @@ namespace PhanMemQuanLyKhachSan
             this.Hide();
         }
 
+        // lay CSDL truyen len
         private void BindGrid(List<VatTu> listVatTu)
         {
             dgvCapNhatVatTu.Rows.Clear();
@@ -68,6 +71,7 @@ namespace PhanMemQuanLyKhachSan
             }
         }
 
+        // Sua Ten Vat Tu
         private VatTu GetVatTu()
         {
             VatTu k = new VatTu();          
@@ -108,6 +112,7 @@ namespace PhanMemQuanLyKhachSan
             }
         }
 
+        // khi click dong bang
         private void cell_Click(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)

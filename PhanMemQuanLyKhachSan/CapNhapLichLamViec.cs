@@ -72,6 +72,7 @@ namespace PhanMemQuanLyKhachSan
             frmback.Show();
             this.Hide();
         }
+
         private LichLamViec GetLichLamViec()
         {
             LichLamViec k = new LichLamViec();

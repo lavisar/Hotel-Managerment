@@ -15,7 +15,7 @@ namespace PhanMemQuanLyKhachSan.Model
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public HoaDon()
         {
-            ChiTietHoaDons = new HashSet<ChiTietHoaDon>();
+            ChiTietHoaDons = new HashSet<ChiTietHoaDon>(); // khong cho trung gia tri
         }
 
         public int HoaDonID { get; set; }
@@ -54,8 +54,8 @@ namespace PhanMemQuanLyKhachSan.Model
     {
         public static List<HoaDon> GetAll()
         {
-            QLKSModel context = new QLKSModel();
-            return context.HoaDons.ToList();
+            QLKSModel context = new QLKSModel(); // lien ket CSDL
+            return context.HoaDons.ToList(); // Lay du lieu all Hoa Don
         }
         public static HoaDon GetHoaDon(int hoaDonId)
         {
@@ -69,7 +69,7 @@ namespace PhanMemQuanLyKhachSan.Model
 
         }
         
-        public int InsertUpdate()
+        public int InsertUpdate() // Luu hoa don dc tao
         {
             QLKSModel context = new QLKSModel();
             context.HoaDons.AddOrUpdate(this);

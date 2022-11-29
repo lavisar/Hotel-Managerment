@@ -529,6 +529,7 @@
             this.lblChiTietTongTien.Size = new System.Drawing.Size(23, 28);
             this.lblChiTietTongTien.TabIndex = 100;
             this.lblChiTietTongTien.Text = "0";
+            this.lblChiTietTongTien.TextChanged += new System.EventHandler(this.lblChiTietTongTien_TextChanged);
             // 
             // lblThanhTien
             // 
