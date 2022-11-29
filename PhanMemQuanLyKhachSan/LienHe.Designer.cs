@@ -31,7 +31,6 @@
             this.lbPhanMemLH = new System.Windows.Forms.Label();
             this.lblSGOdysey = new System.Windows.Forms.Label();
             this.lblDiaChi = new System.Windows.Forms.Label();
-            this.lblNamPhatHanh = new System.Windows.Forms.Label();
             this.lblPhatTrienBoi = new System.Windows.Forms.Label();
             this.lblPTBDottedLine = new System.Windows.Forms.Label();
             this.lblLHDottedLine = new System.Windows.Forms.Label();
@@ -46,6 +45,8 @@
             this.lblFacebook = new System.Windows.Forms.Label();
             this.lblDienThoai = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblNamPhatHanh = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbPhanMemLH
@@ -68,7 +69,7 @@
             this.lblSGOdysey.Name = "lblSGOdysey";
             this.lblSGOdysey.Size = new System.Drawing.Size(853, 44);
             this.lblSGOdysey.TabIndex = 1;
-            this.lblSGOdysey.Text = "Sài Gòn Odyssey Hotel";
+            this.lblSGOdysey.Text = "LT Win 123 Hotel";
             this.lblSGOdysey.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblDiaChi
@@ -79,20 +80,8 @@
             this.lblDiaChi.Name = "lblDiaChi";
             this.lblDiaChi.Size = new System.Drawing.Size(853, 44);
             this.lblDiaChi.TabIndex = 2;
-            this.lblDiaChi.Text = "(38 Bùi Viện, Phạm Ngũ Lão, Quận 1)";
+            this.lblDiaChi.Text = "(An Dương Vương, Quận 5)";
             this.lblDiaChi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblNamPhatHanh
-            // 
-            this.lblNamPhatHanh.AutoSize = true;
-            this.lblNamPhatHanh.BackColor = System.Drawing.Color.Transparent;
-            this.lblNamPhatHanh.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNamPhatHanh.Location = new System.Drawing.Point(644, 140);
-            this.lblNamPhatHanh.Name = "lblNamPhatHanh";
-            this.lblNamPhatHanh.Size = new System.Drawing.Size(208, 22);
-            this.lblNamPhatHanh.TabIndex = 3;
-            this.lblNamPhatHanh.Text = "Năm phát hành: 10/10/2019";
-            this.lblNamPhatHanh.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblPhatTrienBoi
             // 
@@ -224,9 +213,9 @@
             this.lblWebsite.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblWebsite.Location = new System.Drawing.Point(570, 376);
             this.lblWebsite.Name = "lblWebsite";
-            this.lblWebsite.Size = new System.Drawing.Size(177, 38);
+            this.lblWebsite.Size = new System.Drawing.Size(188, 38);
             this.lblWebsite.TabIndex = 15;
-            this.lblWebsite.Text = "www.itchat.com";
+            this.lblWebsite.Text = "www.ltwin123.vn";
             this.lblWebsite.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblFacebook
@@ -237,9 +226,9 @@
             this.lblFacebook.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblFacebook.Location = new System.Drawing.Point(570, 338);
             this.lblFacebook.Name = "lblFacebook";
-            this.lblFacebook.Size = new System.Drawing.Size(201, 27);
+            this.lblFacebook.Size = new System.Drawing.Size(224, 27);
             this.lblFacebook.TabIndex = 14;
-            this.lblFacebook.Text = "facebook.com/itchat";
+            this.lblFacebook.Text = "facebook.com/ltwin123";
             this.lblFacebook.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblDienThoai
@@ -250,9 +239,9 @@
             this.lblDienThoai.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblDienThoai.Location = new System.Drawing.Point(570, 299);
             this.lblDienThoai.Name = "lblDienThoai";
-            this.lblDienThoai.Size = new System.Drawing.Size(130, 39);
+            this.lblDienThoai.Size = new System.Drawing.Size(158, 39);
             this.lblDienThoai.TabIndex = 13;
-            this.lblDienThoai.Text = "0796824757";
+            this.lblDienThoai.Text = "+84 123 456 789";
             this.lblDienThoai.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblEmail
@@ -263,10 +252,35 @@
             this.lblEmail.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblEmail.Location = new System.Drawing.Point(570, 257);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(177, 27);
+            this.lblEmail.Size = new System.Drawing.Size(201, 27);
             this.lblEmail.TabIndex = 12;
-            this.lblEmail.Text = "itchat@gmail.com";
+            this.lblEmail.Text = "ltwin123@gmail.com";
             this.lblEmail.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(14, 418);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(186, 22);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "5. Đoàn Thị Thanh Lam";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // lblNamPhatHanh
+            // 
+            this.lblNamPhatHanh.AutoSize = true;
+            this.lblNamPhatHanh.BackColor = System.Drawing.Color.Transparent;
+            this.lblNamPhatHanh.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNamPhatHanh.Location = new System.Drawing.Point(568, 432);
+            this.lblNamPhatHanh.Name = "lblNamPhatHanh";
+            this.lblNamPhatHanh.Size = new System.Drawing.Size(279, 22);
+            this.lblNamPhatHanh.TabIndex = 19;
+            this.lblNamPhatHanh.Text = "Phát hành: 11/2022 by ltwin123 team";
+            this.lblNamPhatHanh.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // frmLienHe
             // 
@@ -275,6 +289,8 @@
             this.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.b1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(862, 491);
+            this.Controls.Add(this.lblNamPhatHanh);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnTroVeCuaLienHe);
             this.Controls.Add(this.lblWebsite);
@@ -288,7 +304,6 @@
             this.Controls.Add(this.lblLienHe);
             this.Controls.Add(this.lblLHDottedLine);
             this.Controls.Add(this.lblPhatTrienBoi);
-            this.Controls.Add(this.lblNamPhatHanh);
             this.Controls.Add(this.lblSGOdysey);
             this.Controls.Add(this.lblDiaChi);
             this.Controls.Add(this.lbPhanMemLH);
@@ -308,7 +323,6 @@
         private System.Windows.Forms.Label lbPhanMemLH;
         private System.Windows.Forms.Label lblSGOdysey;
         private System.Windows.Forms.Label lblDiaChi;
-        private System.Windows.Forms.Label lblNamPhatHanh;
         private System.Windows.Forms.Label lblPhatTrienBoi;
         private System.Windows.Forms.Label lblPTBDottedLine;
         private System.Windows.Forms.Label lblLHDottedLine;
@@ -323,5 +337,7 @@
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.Button btnTroVeCuaLienHe;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblNamPhatHanh;
     }
 }
