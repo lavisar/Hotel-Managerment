@@ -29,6 +29,7 @@ namespace PhanMemQuanLyKhachSan.Model
             return context.VatTus.Where(p => p.VatTuID == vatTuId).FirstOrDefault();
 
         }
+        
         public void InsertUpdate()
         {
             QLKSModel context = new QLKSModel();
